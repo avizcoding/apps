@@ -1,0 +1,11 @@
+﻿.deleteStyle{
+    all:none;
+}
+
+.container{
+    overflow-y: auto !important;
+}
+.actorPositioning {
+    position: relative;
+    top: 15px !important;
+}
