@@ -5086,9 +5086,15 @@
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="Scripts\typings\defiant.d.ts" />
+    <TypeScriptCompile Include="src\content\main.controller.ts" />
+    <TypeScriptCompile Include="src\content\main.view.ts" />
+    <TypeScriptCompile Include="src\content\movies\movie.controller.ts" />
+    <TypeScriptCompile Include="src\content\movies\movie.view.ts" />
     <TypeScriptCompile Include="src\infrastructure\Context\Context.ts" />
     <TypeScriptCompile Include="src\infrastructure\Data\DataLoader.ts" />
     <TypeScriptCompile Include="src\infrastructure\Data\IDataService.ts" />
+    <TypeScriptCompile Include="src\infrastructure\EventAggregator\IEventAggregator.ts" />
+    <TypeScriptCompile Include="src\infrastructure\EventAggregator\SapEventAggregator.ts" />
     <TypeScriptCompile Include="src\infrastructure\Interfaces\IFilmography.ts" />
     <TypeScriptCompile Include="src\infrastructure\Services\Mock\MockDataService.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />

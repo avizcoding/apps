@@ -1,0 +1,1526 @@
+{
+   "actorActress":"Actor",
+   "bio":"J.K. Simmons was born on January 9, 1955 in Detroit, Michigan, USA as Jonathan Kimble Simmons. He is an actor, known for Whiplash (2014), Spider-Man (2002) and The Closer (2005). He has been married to Michelle Schumacher since 1996. They have two children.",
+   "birthName":"Jonathan Kimble Simmons",
+   "born":"Jonathan Kimble Simmons January 9, 1955 in Detroit, Michigan, USA",
+   "dateOfBirth":"9 January 1955",
+   "filmographies":[
+      {
+         "filmography":[
+            {
+               "IMDBId":"tt3731562",
+               "title":"Kong: Skull Island",
+               "year":" 2017"
+            },
+            {
+               "IMDBId":"tt2140479",
+               "title":"The Accountant",
+               "year":" 2016"
+            },
+            {
+               "IMDBId":"tt2822672",
+               "remarks":[
+                  "(voice)"
+               ],
+               "title":"Rock Dog",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt4283414",
+               "title":"Still Punching the Clown",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt3909336",
+               "title":"Worlds Apart",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt1340138",
+               "title":"Terminator Genisys",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt2455546",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Marvel's Avengers Assemble",
+               "year":" 2013-2015"
+            },
+            {
+               "IMDBId":"tt2455514",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Hulk and the Agents of S.M.A.S.H.",
+               "year":" 2013-2015"
+            },
+            {
+               "IMDBId":"tt1695360",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Legend of Korra",
+               "year":" 2012-2014"
+            },
+            {
+               "IMDBId":"tt1722512",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Ultimate Spider-Man",
+               "year":" 2012-2014"
+            },
+            {
+               "IMDBId":"tt3830016",
+               "remarks":[
+                  "(Video Game)",
+                  "(voice)"
+               ],
+               "title":"The Legend of Korra",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt4022252",
+               "title":"Ava & Lala",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt3179568",
+               "title":"Men, Women & Children",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt3398228",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"BoJack Horseman",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt4143804",
+               "title":"Adventure Planet",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt2509850",
+               "title":"The Rewrite",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt2698984",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Growing Up Fisher",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt0437745",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Robot Chicken",
+               "year":" 2011-2014"
+            },
+            {
+               "IMDBId":"tt2481554",
+               "title":"Murder of a Cat",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt3246908",
+               "remarks":[
+                  "Dr. Moore (voice)"
+               ],
+               "title":"The Boxcar Children",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt1942919",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Men at Work",
+               "year":" 2012-2014"
+            },
+            {
+               "IMDBId":"tt3221268",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Chozen",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt3062742",
+               "title":"Break Point",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt2355495",
+               "remarks":[
+                  "(as JK Simmons)"
+               ],
+               "title":"Barefoot",
+               "year":" 2014/I"
+            },
+            {
+               "IMDBId":"tt2582802",
+               "title":"Whiplash",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt3331092",
+               "remarks":[
+                  "(TV Short)",
+                  "(voice)"
+               ],
+               "title":"LEGO Marvel Super Heroes: Maximum Overload",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt1967545",
+               "title":"Labor Day",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt2245283",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Family Tools",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt1761811",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Pound Puppies",
+               "year":" 2011-2013"
+            },
+            {
+               "IMDBId":"tt1825784",
+               "title":"3 Geezers!",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt2995896",
+               "remarks":[
+                  "(Short)"
+               ],
+               "title":"The Magic Bracelet",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt2724290",
+               "remarks":[
+                  "(Short)"
+               ],
+               "title":"The Heeler",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt1266020",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Parks and Recreation",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt2387433",
+               "title":"Dark Skies",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt2357129",
+               "title":"Jobs",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt2654430",
+               "remarks":[
+                  "(Short)"
+               ],
+               "title":"Whiplash",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt1636691",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Generator Rex",
+               "year":" 2010-2013"
+            },
+            {
+               "IMDBId":"tt0417373",
+               "remarks":[
+                  "(TV Series)",
+                  "Ben (Old Man Potter)"
+               ],
+               "title":"The Venture Bros.",
+               "year":" 2012"
+            },
+            {
+               "IMDBId":"tt0458253",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Closer",
+               "year":" 2005-2012"
+            },
+            {
+               "IMDBId":"tt1626038",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Avengers: Earth's Mightiest Heroes",
+               "year":" 2012"
+            },
+            {
+               "IMDBId":"tt1845887",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Best Friends Forever",
+               "year":" 2012"
+            },
+            {
+               "IMDBId":"tt1840417",
+               "title":"The Words",
+               "year":" 2012"
+            },
+            {
+               "IMDBId":"tt1524137",
+               "title":"Contraband",
+               "year":" 2012"
+            },
+            {
+               "IMDBId":"tt1625346",
+               "remarks":[
+                  "Mavis's Publisher (voice, uncredited)"
+               ],
+               "title":"Young Adult",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1783495",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"NTSF:SD:SUV",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1956444",
+               "remarks":[
+                  "(Short)"
+               ],
+               "title":"Blackstone",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1582271",
+               "title":"The Good Doctor",
+               "year":" 2011/I"
+            },
+            {
+               "IMDBId":"tt1648163",
+               "remarks":[
+                  "(Video Game)",
+                  "(voice)"
+               ],
+               "title":"Portal 2",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1786812",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Desert Car Kings",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1615919",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Raising Hope",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1613062",
+               "title":"The Music Never Stopped",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt0397306",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"American Dad!",
+               "year":" 2007-2011"
+            },
+            {
+               "IMDBId":"tt1403865",
+               "remarks":[
+                  "(voice, uncredited)"
+               ],
+               "title":"True Grit",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1001526",
+               "remarks":[
+                  "(voice)"
+               ],
+               "title":"Megamind",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1212454",
+               "title":"An Invisible Sign",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1516002",
+               "title":"A Beginner's Guide to Endings",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1287468",
+               "remarks":[
+                  "(voice)"
+               ],
+               "title":"Cats & Dogs: The Revenge of Kitty Galore",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt0098844",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Law & Order",
+               "year":" 1994-2010"
+            },
+            {
+               "IMDBId":"tt1622696",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Ben 10: Ultimate Alien",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1073507",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Party Down",
+               "year":" 2009-2010"
+            },
+            {
+               "IMDBId":"tt0950701",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Life & Times of Tim",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1196134",
+               "title":"Crazy on the Outside",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1213218",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Batman: The Brave and the Bold",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1178180",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Marvelous Misadventures of Flapjack",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1131734",
+               "title":"Jennifer's Body",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1193138",
+               "title":"Up in the Air",
+               "year":" 2009/I"
+            },
+            {
+               "IMDBId":"tt1225822",
+               "title":"Extract",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1142433",
+               "remarks":[
+                  "Roy Davies (as JK Simmons)"
+               ],
+               "title":"Post Grad",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt0775552",
+               "remarks":[
+                  "(voice)"
+               ],
+               "title":"Aliens in the Attic",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1155056",
+               "title":"I Love You, Man",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt2078652",
+               "remarks":[
+                  "(Short)"
+               ],
+               "title":"Jewno",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1103256",
+               "title":"Red Sands",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1133995",
+               "title":"The Way of War",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1095174",
+               "title":"New in Town",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1183921",
+               "title":"The Vicious Kind",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1198194",
+               "remarks":[
+                  "(Video Game)"
+               ],
+               "title":"Command & Conquer: Red Alert 3",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt1192169",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Ben 10: Alien Force",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt0887883",
+               "remarks":[
+                  "(as JK Simmons)"
+               ],
+               "title":"Burn After Reading",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt0852863",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Phineas and Ferb",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt0804522",
+               "title":"Rendition",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0467406",
+               "title":"Juno",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0486640",
+               "title":"Postal",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0278866",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Kim Possible",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0318005",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Queens Supreme",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt1148238",
+               "remarks":[
+                  "(Video short)"
+               ],
+               "title":"Breaking Down the Closer",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0821638",
+               "remarks":[
+                  "(TV Movie)"
+               ],
+               "title":"Bury My Heart at Wounded Knee",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0837564",
+               "remarks":[
+                  "(Video Game)",
+                  "(voice)"
+               ],
+               "title":"Spider-Man 3",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0413300",
+               "title":"Spider-Man 3",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0096697",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Simpsons",
+               "year":" 2006-2007"
+            },
+            {
+               "IMDBId":"tt0469263",
+               "title":"The Astronaut Farmer",
+               "year":" 2006"
+            },
+            {
+               "IMDBId":"tt0432289",
+               "title":"First Snow",
+               "year":" 2006"
+            },
+            {
+               "IMDBId":"tt0275137",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Justice League",
+               "year":" 2004-2006"
+            },
+            {
+               "IMDBId":"tt0200276",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The West Wing",
+               "year":" 2006"
+            },
+            {
+               "IMDBId":"tt0433387",
+               "title":"Harsh Times",
+               "year":" 2005"
+            },
+            {
+               "IMDBId":"tt0427944",
+               "title":"Thank You for Smoking",
+               "year":" 2005"
+            },
+            {
+               "IMDBId":"tt0433309",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Numb3rs",
+               "year":" 2005"
+            },
+            {
+               "IMDBId":"tt0410997",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Jack & Bobby",
+               "year":" 2005"
+            },
+            {
+               "IMDBId":"tt0367279",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Arrested Development",
+               "year":" 2005"
+            },
+            {
+               "IMDBId":"tt0401088",
+               "remarks":[
+                  "(TV Movie)"
+               ],
+               "title":"3: The Dale Earnhardt Story",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0361217",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Nip/Tuck",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0398498",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Jury",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0316654",
+               "title":"Spider-Man 2",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0321021",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Without a Trace",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0397139",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The D.A.",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0335245",
+               "title":"The Ladykillers",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0317648",
+               "title":"Hidalgo",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0108757",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"ER",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0367659",
+               "remarks":[
+                  "(Short)"
+               ],
+               "title":"Disposal",
+               "year":" 2003"
+            },
+            {
+               "IMDBId":"tt0318883",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Everwood",
+               "year":" 2003"
+            },
+            {
+               "IMDBId":"tt0320038",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"John Doe",
+               "year":" 2003"
+            },
+            {
+               "IMDBId":"tt0118421",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Oz",
+               "year":" 1997-2003"
+            },
+            {
+               "IMDBId":"tt0332285",
+               "title":"Off the Map",
+               "year":" 2003"
+            },
+            {
+               "IMDBId":"tt0315622",
+               "remarks":[
+                  "(TV Movie)"
+               ],
+               "title":"Homeward Bound",
+               "year":" 2002"
+            },
+            {
+               "IMDBId":"tt0218505",
+               "remarks":[
+                  "(TV Movie)"
+               ],
+               "title":"Path to War",
+               "year":" 2002"
+            },
+            {
+               "IMDBId":"tt0145487",
+               "title":"Spider-Man",
+               "year":" 2002"
+            },
+            {
+               "IMDBId":"tt0275140",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Law & Order: Criminal Intent",
+               "year":" 2002"
+            },
+            {
+               "IMDBId":"tt0203259",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Law & Order: Special Victims Unit",
+               "year":" 2000-2001"
+            },
+            {
+               "IMDBId":"tt0236493",
+               "title":"The Mexican",
+               "year":" 2001"
+            },
+            {
+               "IMDBId":"tt0219699",
+               "title":"The Gift",
+               "year":" 2000"
+            },
+            {
+               "IMDBId":"tt2061739",
+               "remarks":[
+                  "(Video Game)"
+               ],
+               "title":"M&M's: The Lost Formulas",
+               "year":" 2000"
+            },
+            {
+               "IMDBId":"tt0174480",
+               "title":"Autumn in New York",
+               "year":" 2000"
+            },
+            {
+               "IMDBId":"tt0200472",
+               "remarks":[
+                  "(uncredited)"
+               ],
+               "title":"Beautiful Joe",
+               "year":" 2000"
+            },
+            {
+               "IMDBId":"tt0197182",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Third Watch",
+               "year":" 2000"
+            },
+            {
+               "IMDBId":"tt0072562",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Saturday Night Live",
+               "year":" 1999"
+            },
+            {
+               "IMDBId":"tt0811607",
+               "remarks":[
+                  "(Short)",
+                  "(voice)"
+               ],
+               "title":"I Lost My M in Vegas",
+               "year":" 1999"
+            },
+            {
+               "IMDBId":"tt0126916",
+               "remarks":[
+                  "(as JK Simmons)"
+               ],
+               "title":"For Love of the Game",
+               "year":" 1999"
+            },
+            {
+               "IMDBId":"tt0124315",
+               "title":"The Cider House Rules",
+               "year":" 1999"
+            },
+            {
+               "IMDBId":"tt0138493",
+               "title":"Hit and Runway",
+               "year":" 1999"
+            },
+            {
+               "IMDBId":"tt0165607",
+               "title":"Above Freezing",
+               "year":" 1998"
+            },
+            {
+               "IMDBId":"tt0115333",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Remember WENN",
+               "year":" 1998"
+            },
+            {
+               "IMDBId":"tt0120533",
+               "title":"Celebrity",
+               "year":" 1998"
+            },
+            {
+               "IMDBId":"tt0108876",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"New York Undercover",
+               "year":" 1996-1998"
+            },
+            {
+               "IMDBId":"tt0119093",
+               "remarks":[
+                  "(TV Movie)"
+               ],
+               "title":"Face Down",
+               "year":" 1997"
+            },
+            {
+               "IMDBId":"tt0118617",
+               "remarks":[
+                  "Ensemble and Character Vocals (voice)"
+               ],
+               "title":"Anastasia",
+               "year":" 1997"
+            },
+            {
+               "IMDBId":"tt0119395",
+               "title":"The Jackal",
+               "year":" 1997"
+            },
+            {
+               "IMDBId":"tt0177666",
+               "title":"Crossing Fields",
+               "year":" 1997"
+            },
+            {
+               "IMDBId":"tt0115369",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Spin City",
+               "year":" 1997"
+            },
+            {
+               "IMDBId":"tt0118727",
+               "title":"La part du mal",
+               "year":" 1997"
+            },
+            {
+               "IMDBId":"tt0116259",
+               "title":"Extreme Measures",
+               "year":" 1996"
+            },
+            {
+               "IMDBId":"tt0116313",
+               "title":"The First Wives Club",
+               "year":" 1996"
+            },
+            {
+               "IMDBId":"tt0115380",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Swift Justice",
+               "year":" 1996"
+            },
+            {
+               "IMDBId":"tt0106028",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Homicide: Life on the Street",
+               "year":" 1996"
+            },
+            {
+               "IMDBId":"tt0105933",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Adventures of Pete & Pete",
+               "year":" 1995"
+            },
+            {
+               "IMDBId":"tt0112094",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"New York News",
+               "year":" 1995"
+            },
+            {
+               "IMDBId":"tt0111094",
+               "title":"The Scout",
+               "year":" 1994"
+            },
+            {
+               "IMDBId":"tt0110008",
+               "remarks":[
+                  "(English version, voice)"
+               ],
+               "title":"Pom Poko",
+               "year":" 1994"
+            },
+            {
+               "IMDBId":"tt0110955",
+               "title":"The Ref",
+               "year":" 1994"
+            },
+            {
+               "IMDBId":"tt0091780",
+               "remarks":[
+                  "(TV Movie)",
+                  "Patrolman in Park (as Jonathan Simmons)"
+               ],
+               "title":"Popeye Doyle",
+               "year":" 1986"
+            }
+         ],
+         "section":"Actor"
+      },
+      {
+         "filmography":[
+            {
+               "IMDBId":"tt0118421",
+               "remarks":[
+                  "(TV Series)",
+                  "(performer - 1 episode)"
+               ],
+               "title":"Oz",
+               "year":" 2002"
+            }
+         ],
+         "section":"Soundtrack"
+      },
+      {
+         "filmography":[
+            {
+               "IMDBId":"tt2739636",
+               "remarks":[
+                  "(TV Movie)",
+                  "(special thanks)"
+               ],
+               "title":"The 2013 Film Independent Spirit Awards",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt0807942",
+               "remarks":[
+                  "(Short)",
+                  "(special thanks)"
+               ],
+               "title":"Dancing Ground",
+               "year":" 2006"
+            },
+            {
+               "IMDBId":"tt0437316",
+               "remarks":[
+                  "(Video documentary)",
+                  "(special thanks)"
+               ],
+               "title":"Making the Amazing",
+               "year":" 2004"
+            }
+         ],
+         "section":"Thanks"
+      },
+      {
+         "filmography":[
+            {
+               "IMDBId":"tt3674910",
+               "remarks":[
+                  "(TV Special)"
+               ],
+               "title":"The 87th Annual Academy Awards",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt4267078",
+               "remarks":[
+                  "(TV Movie documentary)"
+               ],
+               "title":"30th Annual Film Independent Spirit Awards",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt3677742",
+               "remarks":[
+                  "(TV Special)"
+               ],
+               "title":"Saturday Night Live 40th Anniversary Special",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt2234701",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"CollegeHumor Originals",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt0165001",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"CBS News Sunday Morning",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt4420868",
+               "remarks":[
+                  "(TV Special)"
+               ],
+               "title":"The EE British Academy Film Awards",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt0072562",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Saturday Night Live",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt4384904",
+               "remarks":[
+                  "(TV Special)"
+               ],
+               "title":"The 21st Annual Screen Actors Guild Awards",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt0192897",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Film 2015",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt3270224",
+               "remarks":[
+                  "(TV Special)"
+               ],
+               "title":"72nd Golden Globe Awards",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt3444938",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Tonight Show Starring Jimmy Fallon",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt0096636",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Live with Kelly and Michael",
+               "year":" 2015"
+            },
+            {
+               "IMDBId":"tt4267324",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Variety Studio",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt0320037",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Jimmy Kimmel Live!",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt3412000",
+               "remarks":[
+                  "(TV Series documentary)"
+               ],
+               "title":"IMDb: What to Watch",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt0081857",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Entertainment Tonight",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt0305056",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Last Call with Carson Daly",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt0044298",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Today",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt4380034",
+               "remarks":[
+                  "(Documentary)",
+                  "Narrator (voice)"
+               ],
+               "title":"Wild Hawaii",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt3544520",
+               "remarks":[
+                  "(TV Series documentary short)"
+               ],
+               "title":"Fatherhood",
+               "year":" 2014"
+            },
+            {
+               "IMDBId":"tt0197153",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Good Day L.A.",
+               "year":" 2013"
+            },
+            {
+               "IMDBId":"tt1840320",
+               "remarks":[
+                  "(Short)"
+               ],
+               "title":"Fanboy",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1663128",
+               "remarks":[
+                  "(Documentary)"
+               ],
+               "title":"4192: The Crowning of the Hit King",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1524593",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Kevin Pollak's Chat Show",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1680033",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Celebrity Liar",
+               "year":" 2010"
+            },
+            {
+               "IMDBId":"tt1475572",
+               "remarks":[
+                  "(Video short)"
+               ],
+               "title":"Making 'New in Town' in Winnipeg, Canada",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1475575",
+               "remarks":[
+                  "(Video short)"
+               ],
+               "title":"Pudding's Delicious Role in 'New in Town'",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt1628029",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Reel Comedy",
+               "year":" 2009"
+            },
+            {
+               "IMDBId":"tt0843933",
+               "remarks":[
+                  "(TV Series documentary)"
+               ],
+               "title":"Infanity",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt1247677",
+               "remarks":[
+                  "(Documentary)"
+               ],
+               "title":"The Little Red Truck",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt1171215",
+               "remarks":[
+                  "(TV Movie)"
+               ],
+               "title":"13th Annual Critics' Choice Awards",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt1185338",
+               "remarks":[
+                  "(TV Movie)"
+               ],
+               "title":"13th Annual Critics' Choice Awards Red Carpet Premiere",
+               "year":" 2008"
+            },
+            {
+               "IMDBId":"tt1434322",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Up Close with Carrie Keagan",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0868046",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"ESPN's Ultimate NASCAR",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt1062773",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Secret's Out",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt1024818",
+               "remarks":[
+                  "(Video)"
+               ],
+               "title":"The 21st Annual Genesis Awards",
+               "year":" 2007"
+            },
+            {
+               "IMDBId":"tt0446520",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Baseball Bunch",
+               "year":" 2006"
+            },
+            {
+               "IMDBId":"tt0460687",
+               "remarks":[
+                  "(TV Series documentary)"
+               ],
+               "title":"Timeless",
+               "year":" 2005"
+            },
+            {
+               "IMDBId":"tt0389591",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Celebrity Poker Showdown",
+               "year":" 2005"
+            },
+            {
+               "IMDBId":"tt1658831",
+               "remarks":[
+                  "(TV Movie documentary)"
+               ],
+               "title":"The Making of '3'",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0437316",
+               "remarks":[
+                  "(Video documentary)"
+               ],
+               "title":"Making the Amazing",
+               "year":" 2004"
+            },
+            {
+               "IMDBId":"tt0115147",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"The Daily Show with Jon Stewart",
+               "year":" 2000"
+            },
+            {
+               "IMDBId":"tt0910857",
+               "remarks":[
+                  "(TV Movie documentary)"
+               ],
+               "title":"Crucible of Empire: The Spanish American War",
+               "year":" 1999"
+            },
+            {
+               "IMDBId":"tt0159876",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Great Performances",
+               "year":" 1992"
+            },
+            {
+               "IMDBId":"tt0293745",
+               "remarks":[
+                  "(TV Special)"
+               ],
+               "title":"The 46th Annual Tony Awards",
+               "year":" 1992"
+            }
+         ],
+         "section":"Self"
+      },
+      {
+         "filmography":[
+            {
+               "IMDBId":"tt1749539",
+               "remarks":[
+                  "(TV Series)"
+               ],
+               "title":"Special Collector's Edition",
+               "year":" 2011"
+            },
+            {
+               "IMDBId":"tt1183149",
+               "remarks":[
+                  "(TV Movie documentary)",
+                  "Mac MacGuff (uncredited)"
+               ],
+               "title":"Oscar, que empiece el espectáculo",
+               "year":" 2008"
+            }
+         ],
+         "section":"Archive footage"
+      }
+   ],
+   "height":"5' 11\" (1.8 m)",
+   "idIMDB":"nm0799777",
+   "name":"J.K. Simmons",
+   "nickname":"Kim",
+   "personalQuotes":[
+      "[on his career] If I had any other talent or salable commodity I probably would have gone into it. I mean, aside from the modelling, yeah.",
+      "I never listened to the Grateful Dead as a teen; the only exposure I got was what came through the walls when my sister was listening to them.",
+      "I'm not a fan of any genre but am a fan of movies that are intelligent and/or funny. That goes across all genres: a horror movie, a zombie movie, alien invaders, chick flick, or raunchy comedy. If it's well done, I'm a fan.",
+      "I like to act. Every other aspect of show business I find uninteresting.",
+      "People evolve and it's important to not stop evolving just because you've reached 'adulthood.'",
+      "The best compliment I ever got from the public or producers or directors is that I just totally blend in and become the character and they don't notice me and that the play happens or the movie happens or the TV show happens.",
+      "I actually have a degree in music and was aware that music was a tool used in therapy. I didn't realize how far it had come since I was in college in the mid-seventies.",
+      "I was not a giant comic book fan as a kid, but to the extent that I did read comics, Spider-Man was always my favorite guy."
+   ],
+   "placeOfBirth":" Detroit, Michigan, USA",
+   "salaries":[
+
+   ],
+   "spouse":[
+      {
+         "childrens":"2 children",
+         "dateFrom":"1996",
+         "dateTo":"present",
+         "nameId":{
+            "id":"nm0776650",
+            "name":"Michelle Schumacher"
+         }
+      }
+   ],
+   "starSign":"Capricorn",
+   "tradeMark":[
+      "Often plays leaders and authority figures",
+      "Often plays fathers and family men",
+      "The role of J. Jonah Jameson, Peter Parker/Spider-Man's hot-tempered boss.",
+      "Low-pitched, rolling voice",
+      "Often plays sharp-tongued and short-tempered men who intimidate other characters"
+   ],
+   "trivia":[
+      "He is the father of two children. He has a sister, Elizabeth Simmons O'Neill, and a brother David.",
+      "Is the voice of the yellow peanut M&M on the commercials since the late 1990s, replacing John Goodman after the original 1995 commercials. In 2000, a video game was produced, M&M's: The Lost Formulas (2000), in which he portrayed Yellow Peanut.",
+      "Does voice-over work for Norelco razors.",
+      "Graduated from the University of Montana. Received an Achievement Award for the university in April 2002. Studied to become a composer before getting to musicals and acting.",
+      "His character of Dr. Emil Skoda is one of the few Law & Order (1990) recurring characters to span all three incarnations: the original series; Law & Order: Special Victims Unit (1999) and Law & Order: Criminal Intent (2001) (the medical examiner, Elizabeth Rodgers (Leslie Hendrix), has also appeared on all three shows).",
+      "Before playing police psychiatrist Dr. Emil Skoda on Law & Order (1990), he played a fanatical nut-case suspect on a crossover episode of Law & Order (1990) and Homicide: Life on the Street (1993). He is among the few recurring members to have a guest spot as one character on a \"Law & Order\" series before going on to play a different character in the L&O universe (others include S. Epatha Merkerson and Jerry Orbach). Ice-T played a criminal who met a \"striking\" fate in Exiled (1998) before going on to star as Detective Odafin \"Fin\" Tutuola in Law & Order: Special Victims Unit (1999).",
+      "Attended the Ohio State University while living in Worthington, Ohio. Still remains a huge fan of Ohio State sports today.",
+      "Has appeared in four films with Bruce Campbell. The first two were Spider-Man (2002) and Spider-Man 2 (2004), both directed by Sam Raimi. The third was The Ladykillers (2004) directed by Ethan Coen, who frequently collaborates with Raimi, followed by another appearance with Campbell in Raimi's Spider-Man 3 (2007).",
+      "Played the manager of his hometown pro baseball team, the Detroit Tigers, in For Love of the Game (1999).",
+      "Wore a wig to play J. Jonah Jameson in the Spider-Man films.",
+      "Met his wife, Michelle Schumacher, during a tour of \"Peter Pan\".",
+      "Has been in all the feature films of Jason Reitman.",
+      "Has played the same character (Dr. Emil Skoda) in four different series: Law & Order (1990), New York Undercover (1994), Law & Order: Special Victims Unit (1999) and Law & Order: Criminal Intent (2001).",
+      "Breakthrough role was as Vern Schillinger in HBO's first hour-long drama, the critically-acclaimed prison series Oz (1997).",
+      "Has played the same character (J. Jonah Jameson) in three different series: The Avengers: Earth's Mightiest Heroes (2010), Ultimate Spider-Man (2012) and Marvel's Avengers Assemble (2013).",
+      "Attended the Critics' Choice Awards ceremony, and was interviewed by Canadian news show \"E Talk\" (2002). [January 2008]",
+      "In the well-known and very long-running TV commercials for Farmer's Insurance, he portrays a professor at the seemingly fictional Farmer's University, which has labs or classrooms which teach students about disasters, accidents, and more. However, according to the Farmer's Insurance website: \"If you become an agent, you'll find out firsthand: The University of Farmers is, in fact, a real place. Our award-winning training program focuses on the Four Business Basics: Sales, Marketing, Operations, and Financial Management. Our non-traditional insurance courses are what set us apart, including a car rotisserie and an all-weather model home.\".",
+      "The name of his Farmer's Insurance TV commercials character is Prof. Nathaniel Burke, which was not spoken, but seen on the nameplate on his desk.",
+      "He has English, as well as some Scotch-Irish, German, and Welsh, ancestry.",
+      "As of 2015, has appeared in five films that were nominated for the Best Picture Oscar: The Cider House Rules (1999), Juno (2007), Up in the Air (2009), True Grit (2010) and _Whiplash (2014)."
+   ],
+   "uniqueName":"J.K. Simmons",
+   "urlPhoto":"http://ia.media-imdb.com/images/M/MV5BMjA1MzMwNDkxMF5BMl5BanBnXkFtZTYwNjIxNjk3._V1_SX214_CR0,0,214,317_AL_.jpg"
+}

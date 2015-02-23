@@ -8,7 +8,7 @@ class Bootstrapper {
 
         sap.ui.getCore().attachInitEvent(() => {
             infrastructure.Context.Initialize();
-            var view = sap.ui.view("mainView", { type: sap.ui.core.mvc.ViewType.JS, viewName: "src.content.actors.actor", height: "100%" });
+            var view = sap.ui.view("mainView", { type: sap.ui.core.mvc.ViewType.JS, viewName: "src.content.main", height: "100%" });
             view.placeAt("content");
         });
 

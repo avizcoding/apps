@@ -9,6 +9,7 @@ var Actors;
                 args[_i - 0] = arguments[_i];
             }
             this._callbackRender = args[0];
+            this._eventAggregator = args[1];
         };
         ActorController.prototype.onAfterRendering = function () {
             this._callbackRender();
@@ -30,10 +31,16 @@ var Actors;
                 var section = filmographies[i].section;
                 var fields = [];
                 for (var prop in filmographies[i].filmography[0]) {
-                    fields.push({ field: prop });
+                    if (prop != "IMDBId") {
+                        fields.push({ field: prop });
+                    }
                 }
                 this._model.setProperty("/dataStructures/" + section, fields);
             }
+        };
+        ActorController.prototype.itemSelected = function (item) {
+            this._model.setProperty("/selectedItem", item);
+            this._eventAggregator.publish("movieDB", "getMovieInfo", item);
         };
         return ActorController;
     })();

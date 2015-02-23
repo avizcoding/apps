@@ -1,11 +1,14 @@
 ﻿module Actors {
+
     export class ActorController {
 
+        private _eventAggregator: infrastructure.EventAggregator.IEventAggregator;
         private _callbackRender: any;
         private _model: any;
 
         public init(...args: any[]): void {
             this._callbackRender = args[0];
+            this._eventAggregator = args[1];
         }
 
         public onAfterRendering(): void {
@@ -32,13 +35,21 @@
                 var section = filmographies[i].section;
                 var fields = [];
                 for (var prop in filmographies[i].filmography[0]) {
-                    fields.push({ field: prop });
+                    if (prop != "IMDBId") {
+                        fields.push({ field: prop });
+                    }
                 }
 
                 this._model.setProperty("/dataStructures/" + section, fields);
             }
         }
+
+        public itemSelected(item: any): void {
+            this._model.setProperty("/selectedItem", item);
+            this._eventAggregator.publish("movieDB", "getMovieInfo", item);
+        }
     }
+
 }
 
 sap.ui.controller("src.content.actors.actor", new Actors.ActorController()); 

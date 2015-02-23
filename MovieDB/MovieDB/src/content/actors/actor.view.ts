@@ -1,7 +1,4 @@
-﻿/// <reference path="../../../scripts/typings/defiant.d.ts" />
-
-jQuery.sap.require("movieDB.src.infrastructure.Services.Mock.MockDataService");
-module Actors {
+﻿module Actors {
 
     export class ActorView {
 
@@ -22,26 +19,14 @@ module Actors {
             var that = this;
             this._controller = controller;
 
+            var actorPage = new sap.m.Page();
             this._layout = new sap.ui.commons.layout.AbsoluteLayout({ width: "100%", height: "100%" } );
 
             var onRender = (() => {
-                this._layout.addStyleClass("container");
-                var layoutElement = document.getElementById(this._layout.sId);
-                layoutElement.parentElement.className = "row";
-                layoutElement.style.position = "absolute";
-                layoutElement.style.height = "100%";
-                layoutElement.style.width = "100%";
-
-                var dividerLine = document.createElement("DIV");
-                dividerLine.className = "divider";
-
-                var children = layoutElement.children;
-                for (var i = 0; i < children.length; i++) {
-                    children[i].setAttribute("class", "actorPositioning");
-                }
+                this.applyStyles();
             });
 
-            this._controller.init(onRender);
+            this._controller.init(onRender, infrastructure.EventAggregator.SapEventAggregator.singleton);
 
             var receivedData = ((data) => {
                 this._controller.setModel(data);
@@ -50,7 +35,9 @@ module Actors {
 
             this.getActor(receivedData);
 
-            return this._layout;
+            actorPage.setTitle(this._controller.getModel().getProperty("/data/name"));
+            actorPage.addContent(this._layout);
+            return actorPage;
         }
 
         private getActor(callback: (response: any) => void): void {
@@ -59,7 +46,7 @@ module Actors {
                 callback(response);
             });
 
-            this._dataLoader.Run(new services.MockDataService(), "", dataReceived);
+            this._dataLoader.Run(new services.MockActorDataService(), "", dataReceived);
         }
 
         private buildScreen(): void {
@@ -69,7 +56,10 @@ module Actors {
             var placeOfBirth = new sap.m.Label("placeOfBirth");
             var dateOfBirth = new sap.m.Label("dateOfBirth");
             var shortBio = new sap.m.Text("shortBio");
-            var filmographyTable = new sap.m.Table("filmographyTable");
+            var filmographyTable = new sap.m.Table("filmographyTable", {
+                mode: "SingleSelectMaster",
+                selectionChange: [this.itemSelected, this]
+            });
 
             this._layout.addContent(actorName);
             this._layout.addContent(actorPhoto);
@@ -113,7 +103,6 @@ module Actors {
 
             for (var i = 0; i < actorFilmography.length; i++) {
                 if (actorFilmography[i].section == "Actor") {
-                    console.log(actorFilmography[i]);
                     var path = "/data/filmographies/" + i + "/filmography";
                 }
             }
@@ -126,16 +115,45 @@ module Actors {
                 });
             });
 
+            var columns = table.getAggregation("columns");
+
             table.bindItems(path , function (index, context) {
                 var obj = context.getObject();
                 var row = new sap.m.ColumnListItem();
-
-                for (var k in obj) {
-                    row.addCell(new sap.m.Text({ text: obj[k] }));
+                for (var prop in obj) {
+                    for (var i = 0; i < columns.length; i++) {
+                        var field = columns[i].getAggregation("header").getText();
+                        if (prop == field) {
+                            row.addCell(new sap.m.Text({ text: obj[prop] }));
+                        }
+                    }
                 }
 
                 return row;
             });
+        }
+
+        private itemSelected(event): void {
+            /* Retrieve item selected */
+            var item = event.getParameter("listItems")[0];
+            this._controller.itemSelected(item);
+        }
+
+        private applyStyles(): void {
+            //this._layout.addStyleClass("container");
+            var layoutElement = document.getElementById(this._layout.sId);
+            layoutElement.parentElement.className = "row";
+            //layoutElement.style.position = "absolute";
+            layoutElement.style.height = "100%";
+            layoutElement.style.width = "100%";
+
+            var dividerLine = document.createElement("DIV");
+            dividerLine.className = "divider";
+
+            var children = layoutElement.children;
+            for (var i = 0; i < children.length; i++) {
+                children[i].setAttribute("class", "actorPositioning");
+            }
         }
 
     }
