@@ -11,27 +11,19 @@ var Actors;
             var _this = this;
             var that = this;
             this._controller = controller;
-            var actorPage = new sap.m.Page();
+            this._actorPage = new sap.m.Page();
             this._layout = new sap.ui.commons.layout.AbsoluteLayout({ width: "100%", height: "100%" });
             var onRender = (function () {
                 _this.applyStyles();
             });
             this._controller.init(onRender, infrastructure.EventAggregator.SapEventAggregator.singleton);
-            var receivedData = (function (data) {
-                _this._controller.setModel(data);
-                that.buildScreen();
-            });
-            this.getActor(receivedData);
-            actorPage.setTitle(this._controller.getModel().getProperty("/data/name"));
-            actorPage.addContent(this._layout);
-            return actorPage;
+            this._actorPage.addContent(this._layout);
+            return this._actorPage;
         };
-        ActorView.prototype.getActor = function (callback) {
-            var that = this;
-            var dataReceived = (function (response) {
-                callback(response);
-            });
-            this._dataLoader.Run(new services.MockActorDataService(), "", dataReceived);
+        ActorView.prototype.setModel = function (data) {
+            this._controller.setModel(data);
+            this._actorPage.setTitle(this._controller.getModel().getProperty("/data/name"));
+            this.buildScreen();
         };
         ActorView.prototype.buildScreen = function () {
             var actorName = new sap.m.Label("actorName");
@@ -52,6 +44,12 @@ var Actors;
             this._layout.addContent(shortBio);
             this._layout.addContent(filmographyTable);
             this.setControlsModel();
+            /* When purchasing data from a REST service, the data may be received after the render has been fired.
+             * Fire Render Event in order to reaply the CSS styles to the elements
+            */
+            if (!infrastructure.Context.IsModeTest) {
+                this._controller.onAfterRendering();
+            }
         };
         ActorView.prototype.setControlsModel = function () {
             var model = this._controller.getModel();

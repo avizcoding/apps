@@ -40,7 +40,9 @@ var Actors;
         };
         ActorController.prototype.itemSelected = function (item) {
             this._model.setProperty("/selectedItem", item);
-            this._eventAggregator.publish("movieDB", "getMovieInfo", item);
+            var cells = item.getCells();
+            var movie = cells[0].getProperty("text");
+            this._eventAggregator.publish("movieDB", "getMovieData", movie);
         };
         return ActorController;
     })();

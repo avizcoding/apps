@@ -5090,9 +5090,12 @@
     <TypeScriptCompile Include="src\content\main.view.ts" />
     <TypeScriptCompile Include="src\content\movies\movie.controller.ts" />
     <TypeScriptCompile Include="src\content\movies\movie.view.ts" />
+    <TypeScriptCompile Include="src\infrastructure\Ajax\AjaxCaller.ts" />
+    <TypeScriptCompile Include="src\infrastructure\Constants.ts" />
     <TypeScriptCompile Include="src\infrastructure\Context\Context.ts" />
     <TypeScriptCompile Include="src\infrastructure\Data\DataLoader.ts" />
     <TypeScriptCompile Include="src\infrastructure\Data\IDataService.ts" />
+    <TypeScriptCompile Include="src\infrastructure\Data\IDataServiceResponse.ts" />
     <TypeScriptCompile Include="src\infrastructure\EventAggregator\IEventAggregator.ts" />
     <TypeScriptCompile Include="src\infrastructure\EventAggregator\SapEventAggregator.ts" />
     <TypeScriptCompile Include="src\infrastructure\Interfaces\IFilmography.ts" />
@@ -5102,6 +5105,7 @@
     <TypeScriptCompile Include="src\content\actors\actor.controller.ts" />
     <TypeScriptCompile Include="src\content\actors\actor.view.ts" />
     <TypeScriptCompile Include="src\bootstrapper.ts" />
+    <TypeScriptCompile Include="src\infrastructure\Services\Real\DataService.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
@@ -5113,7 +5117,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\infrastructure\MVC\" />
-    <Folder Include="src\infrastructure\Services\Real\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

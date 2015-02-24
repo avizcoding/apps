@@ -1,5 +1,7 @@
 ﻿jQuery.sap.require("movieDB.src.infrastructure.Services.Mock.MockDataService");
+jQuery.sap.require("movieDB.src.infrastructure.Services.Real.DataService");
 jQuery.sap.require("movieDB.src.infrastructure.EventAggregator.SapEventAggregator");
+jQuery.sap.require("movieDB.src.infrastructure.Constants");
 
 module Main {
 
@@ -19,8 +21,9 @@ module Main {
             var onRender = (() => {
             });
 
-            this._controller.init(onRender, infrastructure.EventAggregator.SapEventAggregator.singleton, this.movieInfoLoaded, this.navigateBack);
+            this._controller.init(onRender, infrastructure.EventAggregator.SapEventAggregator.singleton, this.movieDataReceived, this.navigateBack);
 
+            /* Init application */
             this._app = new sap.m.App("movieDB");
 
             var actorView = sap.ui.view("actorView", { type: sap.ui.core.mvc.ViewType.JS, viewName: "src.content.actors.actor", height: "100%" });
@@ -29,10 +32,29 @@ module Main {
             this._app.addPage(actorView);
             this._app.addPage(movieView);
 
+            /* Retrieve data */
+            var onReceivedData = ((response: any) => {
+                if (typeof response.data == "string") {
+                    var parsedData = JSON.parse(response.data);
+                } else {
+                    var parsedData = response.data;
+                }
+                var data = { data: parsedData[0] };
+                actorView.setModel(data);
+            });
+
+            var payload: {} = {};
+            payload["url"] = Constants.Constants.actorDataUrl;
+            for (var prop in infrastructure.Context.Params) {
+                payload[prop] = infrastructure.Context.Params[prop];
+            }
+
+            this._controller.getActorData(onReceivedData, payload);
+
             return this._app;
         }
 
-        private movieInfoLoaded(response: any): void {
+        private movieDataReceived(response: any): void {
             var core = sap.ui.getCore();
             var app = core.byId("movieDB");
             var movieView = app.getPage("movieView");

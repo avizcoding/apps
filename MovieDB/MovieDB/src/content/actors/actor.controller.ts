@@ -46,7 +46,10 @@
 
         public itemSelected(item: any): void {
             this._model.setProperty("/selectedItem", item);
-            this._eventAggregator.publish("movieDB", "getMovieInfo", item);
+
+            var cells = item.getCells();           
+            var movie = cells[0].getProperty("text");
+            this._eventAggregator.publish("movieDB", "getMovieData", movie);
         }
     }
 

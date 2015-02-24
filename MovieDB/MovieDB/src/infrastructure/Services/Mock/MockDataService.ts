@@ -4,7 +4,7 @@ module services {
     export class MockActorDataService implements infrastructure.Data.IDataService {
         public getData(url: string, callback: (response: any) => void, payload: any = {}) {
             var data =
-                {
+                [{
                     "actorActress": "Actor",
                     "bio": "J.K. Simmons was born on January 9, 1955 in Detroit, Michigan, USA as Jonathan Kimble Simmons. He is an actor, known for Whiplash (2014), Spider-Man (2002) and The Closer (2005). He has been married to Michelle Schumacher since 1996. They have two children.",
                     "birthName": "Jonathan Kimble Simmons",
@@ -1529,7 +1529,7 @@ module services {
                     ],
                     "uniqueName": "J.K. Simmons",
                     "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjA1MzMwNDkxMF5BMl5BanBnXkFtZTYwNjIxNjk3._V1_SX214_CR0,0,214,317_AL_.jpg"
-                };
+                }];
             callback({ data: data });
         }
     }
@@ -1537,7 +1537,7 @@ module services {
     export class MockMovieDataService implements infrastructure.Data.IDataService {
         public getData(url: string, callback: (response: any) => void, payload: any = {}) {
             var data =
-                {
+                [{
                 "actors":[
                     {
                         "actorId":"nm1886602",
@@ -25821,7 +25821,7 @@ module services {
                     }
                 ],
                 "year":"2014"
-            };
+            }];
             callback({ data: data });
         }
     }

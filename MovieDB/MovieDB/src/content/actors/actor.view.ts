@@ -4,6 +4,7 @@
 
         private _dataLoader: infrastructure.Data.IDataLoader;
         private _controller: any;
+        private _actorPage: any;
         private _layout: any;
 
         constructor() {
@@ -19,7 +20,7 @@
             var that = this;
             this._controller = controller;
 
-            var actorPage = new sap.m.Page();
+            this._actorPage = new sap.m.Page();
             this._layout = new sap.ui.commons.layout.AbsoluteLayout({ width: "100%", height: "100%" } );
 
             var onRender = (() => {
@@ -28,25 +29,15 @@
 
             this._controller.init(onRender, infrastructure.EventAggregator.SapEventAggregator.singleton);
 
-            var receivedData = ((data) => {
-                this._controller.setModel(data);
-                that.buildScreen();
-            });
-
-            this.getActor(receivedData);
-
-            actorPage.setTitle(this._controller.getModel().getProperty("/data/name"));
-            actorPage.addContent(this._layout);
-            return actorPage;
+            this._actorPage.addContent(this._layout);
+            return this._actorPage;
         }
 
-        private getActor(callback: (response: any) => void): void {
-            var that = this;
-            var dataReceived = ((response: any) => {
-                callback(response);
-            });
+        public setModel(data: any): void {
+            this._controller.setModel(data);
 
-            this._dataLoader.Run(new services.MockActorDataService(), "", dataReceived);
+            this._actorPage.setTitle(this._controller.getModel().getProperty("/data/name"));
+            this.buildScreen();
         }
 
         private buildScreen(): void {
@@ -70,13 +61,19 @@
             this._layout.addContent(filmographyTable);
 
             this.setControlsModel();
+
+            /* When purchasing data from a REST service, the data may be received after the render has been fired.
+             * Fire Render Event in order to reaply the CSS styles to the elements
+            */
+            if (!infrastructure.Context.IsModeTest) {
+                this._controller.onAfterRendering();
+            }
         }
 
         private setControlsModel(): void {
             var model = this._controller.getModel();
             this._layout.setModel(model);
             var content = this._layout.getContent();
-            
 
             for (var i = 0; i < content.length; i++) {
                 if (content[i].sId == "actorName") {
