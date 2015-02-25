@@ -42,9 +42,13 @@
             if (infrastructure.Context.IsModeTest) {
                 infrastructure.Context.DataLoader.Run(new services.MockMovieDataService(), new infrastructure.Data.DataLoaderResponse(), callback, payload);
             } else {
-                payload["url"] = Constants.Constants.movieDataUrl;
-                console.log(payload);
-                infrastructure.Context.DataLoader.Run(new services.MovieDataService(), new infrastructure.Data.DataLoaderResponse(), callback, payload);
+                if (payload["TITLE"] != null && payload["TITLE"] != "") {
+                    payload["url"] = Constants.Constants.movieDataUrl;
+                    infrastructure.Context.DataLoader.Run(new services.MovieDataService(), new infrastructure.Data.DataLoaderResponse(), callback, payload);
+                } else if (payload["IMDBID"] != null && payload["IMDBID"] != "") {
+                    payload["url"] = Constants.Constants.movieDataByIdUrl; 
+                    infrastructure.Context.DataLoader.Run(new services.MovieDataByIdService(), new infrastructure.Data.DataLoaderResponse(), callback, payload);
+                }
             }
         }
 

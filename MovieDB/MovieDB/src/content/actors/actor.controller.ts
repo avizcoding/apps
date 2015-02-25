@@ -47,22 +47,11 @@
         public movieSelected(item: any): void {
             this._model.setProperty("/selectedItem", item);
 
-            /* The filmography section is identified in the id of the item by section + FilmographyTable */
-            var section = item.sId.substring(0, item.sId.indexOf("FilmographyTable"));
+            /* Get the binding context to get all the movie original data */
+            var bindingPath = item.getBindingContext().sPath;
+            var movieData = this._model.getProperty(bindingPath);
 
-            /* Find the column position that corresponds to the title */
-            var dataStructure = this._model.getProperty("/dataStructures/" + section);
-            for (var i = 0; i < dataStructure.length; i++) {
-                if (dataStructure[i].field == "title") {
-                    var index = i;
-                    break;
-                }
-            }
-
-            /* Get the title text and publish an event to get the movie data */
-            var cells = item.getCells();           
-            var movie = cells[index].getProperty("text");
-            this._eventAggregator.publish("movieDB", "getMovieData", { TITLE: movie });
+            this._eventAggregator.publish("movieDB", "getMovieData", { IMDBID: movieData.IMDBId });
         }
     }
 

@@ -49,7 +49,12 @@ var Main;
             else {
                 var parsedData = response.data;
             }
-            var data = { data: parsedData[0] };
+            if (Array.isArray(parsedData)) {
+                var data = { data: parsedData[0] };
+            }
+            else {
+                var data = { data: parsedData };
+            }
             var movieView = app.getPage("movieView");
             movieView.setModel(data);
             app.to("movieView");
