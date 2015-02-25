@@ -21,6 +21,7 @@ var Movies;
         };
         MovieView.prototype.setModel = function (model) {
             this._controller.setModel(model);
+            console.log(this._controller.getModel());
             this._moviePage.setTitle(this._controller.getModel().getProperty("/data/title"));
         };
         MovieView.prototype.navigateBack = function (event) {

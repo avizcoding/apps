@@ -22,7 +22,7 @@ var Main;
             this._app.addPage(actorView);
             this._app.addPage(movieView);
             /* Retrieve data */
-            var onReceivedData = (function (response) {
+            var actorDataReceived = (function (response) {
                 if (typeof response.data == "string") {
                     var parsedData = JSON.parse(response.data);
                 }
@@ -37,14 +37,21 @@ var Main;
             for (var prop in infrastructure.Context.Params) {
                 payload[prop] = infrastructure.Context.Params[prop];
             }
-            this._controller.getActorData(onReceivedData, payload);
+            this._controller.getActorData(actorDataReceived, payload);
             return this._app;
         };
         MainView.prototype.movieDataReceived = function (response) {
             var core = sap.ui.getCore();
             var app = core.byId("movieDB");
+            if (typeof response.data == "string") {
+                var parsedData = JSON.parse(response.data);
+            }
+            else {
+                var parsedData = response.data;
+            }
+            var data = { data: parsedData[0] };
             var movieView = app.getPage("movieView");
-            movieView.setModel(response);
+            movieView.setModel(data);
             app.to("movieView");
         };
         MainView.prototype.navigateBack = function () {

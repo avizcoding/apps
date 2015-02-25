@@ -19,8 +19,7 @@ var services;
         }
         MovieDataService.prototype.getData = function (url, callback, payload) {
             if (payload === void 0) { payload = {}; }
-            url = url + "&title=" + payload.MOVIE;
-            console.log(url);
+            url = url + "&title=" + payload.TITLE;
             infrastructure.Context.AjaxCaller.Run(url, "GET", {}, "application/text-plain; charset= utf - 8", "text", true, false, function (response) {
                 callback(response);
             });

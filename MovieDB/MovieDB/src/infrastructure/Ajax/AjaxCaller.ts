@@ -5,7 +5,7 @@
         public Run(url: string, verb: string = "GET", data: any = {}, contentType: string = "application/text-plain; charset= utf - 8", datatype: string = "text",
             async: boolean = true, cache: boolean = false,
             callback: (response: infrastructure.Data.IDataServiceResponse<any>) => void = () => { }): void {
-            
+
             $.ajax({
                 url: url,
                 type: verb,

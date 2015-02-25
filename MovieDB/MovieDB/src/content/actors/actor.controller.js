@@ -38,11 +38,22 @@ var Actors;
                 this._model.setProperty("/dataStructures/" + section, fields);
             }
         };
-        ActorController.prototype.itemSelected = function (item) {
+        ActorController.prototype.movieSelected = function (item) {
             this._model.setProperty("/selectedItem", item);
+            /* The filmography section is identified in the id of the item by section + FilmographyTable */
+            var section = item.sId.substring(0, item.sId.indexOf("FilmographyTable"));
+            /* Find the column position that corresponds to the title */
+            var dataStructure = this._model.getProperty("/dataStructures/" + section);
+            for (var i = 0; i < dataStructure.length; i++) {
+                if (dataStructure[i].field == "title") {
+                    var index = i;
+                    break;
+                }
+            }
+            /* Get the title text and publish an event to get the movie data */
             var cells = item.getCells();
-            var movie = cells[0].getProperty("text");
-            this._eventAggregator.publish("movieDB", "getMovieData", movie);
+            var movie = cells[index].getProperty("text");
+            this._eventAggregator.publish("movieDB", "getMovieData", { TITLE: movie });
         };
         return ActorController;
     })();

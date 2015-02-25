@@ -37,6 +37,7 @@ var Main;
             }
             else {
                 payload["url"] = Constants.Constants.movieDataUrl;
+                console.log(payload);
                 infrastructure.Context.DataLoader.Run(new services.MovieDataService(), new infrastructure.Data.DataLoaderResponse(), callback, payload);
             }
         };

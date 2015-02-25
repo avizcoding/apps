@@ -33,7 +33,7 @@ module Main {
             this._app.addPage(movieView);
 
             /* Retrieve data */
-            var onReceivedData = ((response: any) => {
+            var actorDataReceived = ((response: any) => {
                 if (typeof response.data == "string") {
                     var parsedData = JSON.parse(response.data);
                 } else {
@@ -49,7 +49,7 @@ module Main {
                 payload[prop] = infrastructure.Context.Params[prop];
             }
 
-            this._controller.getActorData(onReceivedData, payload);
+            this._controller.getActorData(actorDataReceived, payload);
 
             return this._app;
         }
@@ -57,8 +57,17 @@ module Main {
         private movieDataReceived(response: any): void {
             var core = sap.ui.getCore();
             var app = core.byId("movieDB");
+
+            if (typeof response.data == "string") {
+                var parsedData = JSON.parse(response.data);
+            } else {
+                var parsedData = response.data;
+            }
+            var data = { data: parsedData[0] };
+
             var movieView = app.getPage("movieView");
-            movieView.setModel(response);
+            movieView.setModel(data);
+
             app.to("movieView");
         }
 

@@ -47,9 +47,9 @@
             var placeOfBirth = new sap.m.Label("placeOfBirth");
             var dateOfBirth = new sap.m.Label("dateOfBirth");
             var shortBio = new sap.m.Text("shortBio");
-            var filmographyTable = new sap.m.Table("filmographyTable", {
+            var filmographyTable = new sap.m.Table("ActorFilmographyTable", {
                 mode: "SingleSelectMaster",
-                selectionChange: [this.itemSelected, this]
+                selectionChange: [this.movieSelected, this]
             });
 
             this._layout.addContent(actorName);
@@ -88,7 +88,7 @@
                     content[i].bindProperty("text", "/data/dateOfBirth");
                 } else if (content[i].sId == "shortBio") {
                     content[i].bindProperty("text", "/data/bio");
-                } else if (content[i].sId == "filmographyTable") {
+                } else if (content[i].sId == "ActorFilmographyTable") {
                     this.buildTable(model, content[i]);
                 }
             }
@@ -107,16 +107,16 @@
             /* Bindings */
             table.bindAggregation("columns", "/dataStructures/Actor", function (sId, dataModel) {
                 var columnId = dataModel.getObject().field;
-                return new sap.m.Column({
+                return new sap.m.Column(sId + "-column", {
                     header: new sap.m.Text({ text: columnId })
                 });
             });
 
             var columns = table.getAggregation("columns");
 
-            table.bindItems(path , function (index, context) {
+            table.bindItems(path, function (sId, context) {
                 var obj = context.getObject();
-                var row = new sap.m.ColumnListItem();
+                var row = new sap.m.ColumnListItem(sId + "-cell");
                 for (var prop in obj) {
                     for (var i = 0; i < columns.length; i++) {
                         var field = columns[i].getAggregation("header").getText();
@@ -130,10 +130,10 @@
             });
         }
 
-        private itemSelected(event): void {
+        private movieSelected(event): void {
             /* Retrieve item selected */
             var item = event.getParameter("listItems")[0];
-            this._controller.itemSelected(item);
+            this._controller.movieSelected(item);
         }
 
         private applyStyles(): void {
