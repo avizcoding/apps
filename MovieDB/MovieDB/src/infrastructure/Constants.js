@@ -10,4 +10,11 @@ var Constants;
         return Constants;
     })();
     _Constants.Constants = Constants;
+    var Categories = (function () {
+        function Categories() {
+        }
+        Categories.categories = ["Actor", "Movie", "TVShow"];
+        return Categories;
+    })();
+    _Constants.Categories = Categories;
 })(Constants || (Constants = {}));

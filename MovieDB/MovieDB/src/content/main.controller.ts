@@ -4,6 +4,7 @@
 
         private _eventAggregator: infrastructure.EventAggregator.IEventAggregator;
         private _callbackRender: any;
+        private _callbackActorData: any;
         private _callbackMovieData: any;
         private _callbackNavigateBack: any;
         private _model: any;
@@ -12,8 +13,9 @@
         public init(...args: any[]): void {
             this._callbackRender = args[0];
             this._eventAggregator = args[1];
-            this._callbackMovieData = args[2];
-            this._callbackNavigateBack = args[3];
+            this._callbackActorData = args[2];
+            this._callbackMovieData = args[3];
+            this._callbackNavigateBack = args[4];
 
             this._eventAggregator.subscribe("movieDB", "getMovieData", this.getMovieInfo, this);
             this._eventAggregator.subscribe("movieDB", "navigateBack", this.navigateBack, this);
@@ -28,6 +30,21 @@
         public onExit(): void {
             this._eventAggregator.unsubscribe("movieDB", "getMovieInfo", null, this);
             this._eventAggregator.unsubscribe("movieDB", "navigateBack", null, this);
+        }
+
+        public getData(inputData: {}): void {
+            var payload: {} = {};
+            for (var prop in inputData) {
+                if (prop == "Actor") {
+                    payload["ACTOR"] = inputData[prop];
+                    payload["url"] = Constants.Constants.actorDataUrl;
+                    this.getActorData(this._callbackActorData, payload);
+                } else if (prop == "Movie") {
+                    payload["TITLE"] = inputData[prop];
+                    payload["url"] = Constants.Constants.movieDataUrl;
+                    this.getMovieData(this._callbackMovieData, payload);
+                }
+            }
         }
 
         public getActorData(callback: () => {}, payload: {}) {

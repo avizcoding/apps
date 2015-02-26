@@ -13,7 +13,6 @@
 
     /* CLASSES */
     export class DataLoader implements IDataLoader {
-
         public Run(dataService: IDataService, dataResponse: any, callback: (response: any) => void, payload: any = {}) {
             var url: string = payload.url;
 

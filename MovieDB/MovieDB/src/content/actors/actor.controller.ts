@@ -53,6 +53,10 @@
 
             this._eventAggregator.publish("movieDB", "getMovieData", { IMDBID: movieData.IMDBId });
         }
+
+        public navigateBack(): void {
+            this._eventAggregator.publish("movieDB", "navigateBack", null);
+        }
     }
 
 }

@@ -45,6 +45,9 @@ var Actors;
             var movieData = this._model.getProperty(bindingPath);
             this._eventAggregator.publish("movieDB", "getMovieData", { IMDBID: movieData.IMDBId });
         };
+        ActorController.prototype.navigateBack = function () {
+            this._eventAggregator.publish("movieDB", "navigateBack", null);
+        };
         return ActorController;
     })();
     Actors.ActorController = ActorController;

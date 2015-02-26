@@ -12,7 +12,7 @@ var Movies;
             var onRender = (function () {
             });
             this._controller.init(onRender, infrastructure.EventAggregator.SapEventAggregator.singleton);
-            this._moviePage = new sap.m.Page();
+            this._moviePage = new sap.m.Page("moviePage");
             this._moviePage.setShowNavButton(true);
             this._moviePage.attachNavButtonPress(this.navigateBack, this);
             this._layout = new sap.ui.commons.layout.VerticalLayout();

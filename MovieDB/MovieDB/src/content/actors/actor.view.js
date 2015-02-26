@@ -11,7 +11,9 @@ var Actors;
             var _this = this;
             var that = this;
             this._controller = controller;
-            this._actorPage = new sap.m.Page();
+            this._actorPage = new sap.m.Page("actorPage");
+            this._actorPage.setShowNavButton(true);
+            this._actorPage.attachNavButtonPress(this.navigateBack, this);
             this._layout = new sap.ui.commons.layout.AbsoluteLayout({ width: "100%", height: "100%" });
             var onRender = (function () {
                 _this.applyStyles();
@@ -44,12 +46,6 @@ var Actors;
             this._layout.addContent(shortBio);
             this._layout.addContent(filmographyTable);
             this.setControlsModel();
-            /* When purchasing data from a REST service, the data may be received after the render has been fired.
-             * Fire Render Event in order to reaply the CSS styles to the elements
-            */
-            if (!infrastructure.Context.IsModeTest) {
-                this._controller.onAfterRendering();
-            }
         };
         ActorView.prototype.setControlsModel = function () {
             var model = this._controller.getModel();
@@ -60,7 +56,6 @@ var Actors;
                     content[i].bindProperty("text", "/data/name");
                 }
                 else if (content[i].sId == "actorPhoto") {
-                    content[i].bindProperty("src", "/data/urlPhoto");
                 }
                 else if (content[i].sId == "birthName") {
                     content[i].bindProperty("text", "/data/birthName");
@@ -75,7 +70,6 @@ var Actors;
                     content[i].bindProperty("text", "/data/bio");
                 }
                 else if (content[i].sId == "ActorFilmographyTable") {
-                    this.buildTable(model, content[i]);
                 }
             }
         };
@@ -112,6 +106,9 @@ var Actors;
             /* Retrieve item selected */
             var item = event.getParameter("listItems")[0];
             this._controller.movieSelected(item);
+        };
+        ActorView.prototype.navigateBack = function (event) {
+            this._controller.navigateBack();
         };
         ActorView.prototype.applyStyles = function () {
             //this._layout.addStyleClass("container");

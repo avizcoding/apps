@@ -20,7 +20,10 @@
             var that = this;
             this._controller = controller;
 
-            this._actorPage = new sap.m.Page();
+            this._actorPage = new sap.m.Page("actorPage");
+            this._actorPage.setShowNavButton(true);
+            this._actorPage.attachNavButtonPress(this.navigateBack, this);
+
             this._layout = new sap.ui.commons.layout.AbsoluteLayout({ width: "100%", height: "100%" } );
 
             var onRender = (() => {
@@ -35,7 +38,6 @@
 
         public setModel(data: any): void {
             this._controller.setModel(data);
-
             this._actorPage.setTitle(this._controller.getModel().getProperty("/data/name"));
             this.buildScreen();
         }
@@ -61,13 +63,6 @@
             this._layout.addContent(filmographyTable);
 
             this.setControlsModel();
-
-            /* When purchasing data from a REST service, the data may be received after the render has been fired.
-             * Fire Render Event in order to reaply the CSS styles to the elements
-            */
-            if (!infrastructure.Context.IsModeTest) {
-                this._controller.onAfterRendering();
-            }
         }
 
         private setControlsModel(): void {
@@ -79,7 +74,7 @@
                 if (content[i].sId == "actorName") {
                     content[i].bindProperty("text", "/data/name");
                 } else if (content[i].sId == "actorPhoto") {
-                    content[i].bindProperty("src", "/data/urlPhoto");
+                    //content[i].bindProperty("src", "/data/urlPhoto");
                 } else if (content[i].sId == "birthName") {
                     content[i].bindProperty("text", "/data/birthName");
                 } else if (content[i].sId == "placeOfBirth") {
@@ -89,7 +84,7 @@
                 } else if (content[i].sId == "shortBio") {
                     content[i].bindProperty("text", "/data/bio");
                 } else if (content[i].sId == "ActorFilmographyTable") {
-                    this.buildTable(model, content[i]);
+                    //this.buildTable(model, content[i]);
                 }
             }
             
@@ -134,6 +129,10 @@
             /* Retrieve item selected */
             var item = event.getParameter("listItems")[0];
             this._controller.movieSelected(item);
+        }
+
+        private navigateBack(event): void {
+            this._controller.navigateBack();
         }
 
         private applyStyles(): void {
